@@ -21,4 +21,4 @@ func obtener_entradas():
 
 func _physics_process(delta):
 	obtener_entradas()
-	move_and_slide(direction)
+	direction = move_and_slide(direction) 
